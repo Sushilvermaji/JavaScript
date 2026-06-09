@@ -2,9 +2,11 @@
 let name = "Sushil Verma"
 let repo = 5
 
+// console.log(name + repo + "Value")
+
 console.log(`Hello MY name is ${name} and on github my repo is ${repo}`);
 
-const gameName = new String('sushil') // another method of declaring of String
+const gameName = new String('sush-il Verma') // another method of declaring of String
 
 console.log(gameName[0]);
 console.log(gameName.__proto__);
@@ -30,6 +32,8 @@ const url = "http://verma.com/sushil%20verma"
 console.log(url.replace('%20', '-'))
 
 console.log(url.includes("Verma"))
+
+console.log(gameName.split('-'));
 
 
 
